@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+  li {
+    margin-bottom: 10px; /* Adjust the value to increase or decrease spacing */
+  }

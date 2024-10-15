@@ -1,0 +1,59 @@
+/* FormPage.css */
+
+.form-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #EEF2F4;
+    border-radius: 5px;
+    background-color: #EEF2F4; /* Adjust the color to match the screenshot */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Assuming there's a slight shadow */
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+  }
+
+  .header {
+    font-size: 1.5rem; /* Adjust the size to match the screenshot */
+    color: black; /* Adjust the color to match the screenshot */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6a1b9a; /* Adjust the color to match the screenshot */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header button {
+    padding: 8px 16px;
+    background-color: #6a1b9a; /* Adjust the color to match the screenshot */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+  }
+  
+  .header button:hover {
+    background-color: #9005e6; /* A darker shade for hover effect */
+  }
+  .form-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-row label {
+    font-weight: bold;
+    margin-right: 10px;
+    min-width: 180px; /* Adjust to ensure alignment of labels */
+    color: black; /* Adjust the color to match the screenshot */
+  }
+  
+  .form-row span {
+    color: B+black; /* Adjust the color to match the screenshot */
+  }
+  

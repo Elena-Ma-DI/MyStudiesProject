@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    display: 100%;
+    overflow:hidden;
+}
+
+/*SEARCH BAR CSS*/
+
+/* Container for the search bar*/
+.searchContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically (if needed) */
+    margin: 100px; /* Increase the top margin and center horizontally */
+    padding: 20px; /* Add some padding if needed */
+    margin-top: -220px; /* Adjust this value to move the container lower */ 
+}
+  
+/* Style for the Material-UI TextField */
+.muiTextField-root {
+    margin: 8px; /* Spacing around the TextField */
+    width: 500px; /* Or any other width */    
+    border-radius: 100px; 
+    background-color: rgb(228, 181, 247);
+    display: flex;
+    overflow: hidden; /* Ensure that the inner components do not "bleed" outside the border-radius */
+}
+
+/* Specific styles to target the border of the OutlinedInput component */
+.muiTextField-root .MuiOutlinedInput-root {
+    border-radius: 100px; /* Ensure that the border of the OutlinedInput also has rounded corners */
+}
+  
+/* Specific styles for the input field */
+.muiTextField-root .MuiInputBase-input {
+    color: #333; /* Text color for the input */
+    padding: 10px; /* Spacing inside the input */
+    font-size: 1.25rem;
+}
+  
+/* Specific styles for the input adornment (icon) */
+.muiTextField-root .MuiInputAdornment-root {
+    color: #333; /* Icon color */
+  }
+  
+/* Style for the search icon */
+.searchIcon {
+    color: #757575;
+    margin-right: 8px;/* Spacing to the right of the icon */
+    font-size: 5cm;  
+  }
+  
+/* You can also add styles for the button text if necessary */
+.searchContainer button {
+    font-size: 1.25rem; /* Increase the size of the button text */
+}
+
+
+/*HEADER TO THE SEARCH BAR*/
+
+
+/* Increase the size of the text within the header container */
+.HeaderContainer h1 {
+    display: block;
+    justify-content: space-between; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically (if needed) */
+    margin: 100px; /* Increase the top margin and center horizontally */
+    padding: 0px; /* Add some padding if needed */
+    margin-left: 60px;
+    margin-top: 100px; /* Adjust this value to move the container lower */
+    color: rgb(114, 11, 130);
+    font-size: 2rem; /* Increase the size of the h1 text */
+
+}
+
+/*USEFULL INFORMATION ABOUT ACTIONS*/
+
+.contentContainer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+   
+.textContainer {
+    flex: 1; /* Take up the remaining space */
+    padding-left: 20px; /* Add some padding if needed */
+    margin-top: -20px;
+    font-size: x-large;
+  }

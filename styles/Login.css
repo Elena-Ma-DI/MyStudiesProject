@@ -1,0 +1,78 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-container {
+  width: 360px;
+  padding: 40px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logokapo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.login-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 14px;
+}
+
+input::placeholder {
+  font-style: italic;
+  color: #aaa;
+}
+
+button.LoginButton {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: rgb(114, 11, 130);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.LoginButton:hover {
+  background-color: rgba(114, 11, 130, 0.9);
+  box-shadow: 0 4px 12px rgba(114, 11, 130, 0.4);
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #666;
+  font-size: 12px;
+  margin-top: 15px;
+  transition: color 0.3s ease;
+}
+
+

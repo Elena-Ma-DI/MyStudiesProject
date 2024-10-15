@@ -1,0 +1,40 @@
+/* CourseSelect.css */
+.course-select {
+    width: 100%;
+    max-width: fit-content;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-select select {
+    width: 100%;
+    padding: 15px;
+    padding-right: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.course-select select:focus {
+    outline: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Βελάκι */
+.course-select::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+

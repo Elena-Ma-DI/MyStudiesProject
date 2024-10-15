@@ -1,0 +1,44 @@
+.Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: start;
+    padding: 20px;
+    background-color: #EEF2F4; 
+  }
+
+/*oi theseis ths kathe sthlhs*/
+.SocialNetworks,
+.Contact {
+    flex: 1;
+    margin-left: 100px;
+}
+  
+.SocialNetworks h1,
+.Contact h1 {
+    margin-bottom: 20px;
+}
+  
+button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+  
+.Contact span {
+    display: block; /* This will make each span start on a new line */
+}
+
+/* Additional styling for responsiveness */
+@media (max-width: 768px) {
+    .Footer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .SocialNetworks,
+    .Contact {
+      width: 100%;
+      text-align: center;
+    }
+}
+  
